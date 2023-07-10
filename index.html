@@ -44,9 +44,37 @@
         p {
             font-size: 24px;
         }
+
+        .header {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .header h2 {
+            margin: 0;
+        }
+
+        .youtube-link {
+            margin-top: 20px;
+        }
+
+        .youtube-link a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h2>My Website</h2>
+    </div>
+
     <div class="video-container">
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1iQwRNd5goA?autoplay=1&loop=1&playlist=1iQwRNd5goA&controls=0&showinfo=0&mute=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -54,6 +82,9 @@
     <div class="content">
         <h1>Welcome to My Website</h1>
         <p>This is a YouTube video background example.</p>
+        <div class="youtube-link">
+            <a href="https://www.youtube.com/watch?v=1iQwRNd5goA" target="_blank">Watch on YouTube</a>
+        </div>
     </div>
 </body>
 </html>

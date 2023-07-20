@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
 	--primary-color: #e50914;
-	--dark-color: #141414;
+	--dark-color: #0f1a4b;
 	--light-color: #f4f4f4;
 }
 
@@ -14,7 +14,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: #000;
+	background: #00000a;
 	color: #999;
 }
 
@@ -148,7 +148,7 @@ img {
 /* Tab Content */
 .tab-content {
 	padding: 3rem 0;
-	background: #000;
+	background: #05051c;
 	color: #fff;
 }
 

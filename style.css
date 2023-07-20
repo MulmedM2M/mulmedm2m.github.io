@@ -333,10 +333,10 @@ img {
 
 @media (max-width: 960px) {
 
-		.showcase {
+	.showcase {
 		height: 70vh;
 	}
-
+	
 	.hide-sm {
 		display: none;
 	}
@@ -381,9 +381,6 @@ img {
 }
 
 @media (max-width: 700px) {
-	.showcase img{
-		rotate: 90deg;
-	}
 	
 	.showcase::after {
 		background: rgba(0, 0, 0, 0.2);

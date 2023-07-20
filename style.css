@@ -381,6 +381,10 @@ img {
 }
 
 @media (max-width: 700px) {
+	.showcase img{
+		rotate: 90deg;
+	}
+	
 	.showcase::after {
 		background: rgba(0, 0, 0, 0.2);
 	}

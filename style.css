@@ -14,7 +14,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: #00000a;
+	background: #0a143f;
 	color: #999;
 }
 
@@ -230,7 +230,7 @@ img {
 
 .footer,
 .footer a {
-	color: #999;
+	color: #bcd1ee;
 	font-size: 0.9rem;
 }
 
